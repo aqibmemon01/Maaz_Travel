@@ -24,7 +24,9 @@ export default function Greeting() {
             <SocialMedia />
             <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
+              <a >
+              <Button text="WhatsApp" newTab={true} href="whatsapp:contact=03162532723@s.whatsapp.com&message='Message From Web'" />
+              </a>
             </div>
           </div>
         </div>

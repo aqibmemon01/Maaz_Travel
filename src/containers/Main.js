@@ -30,13 +30,13 @@ export default class Main extends Component {
         <MyProjects />
         
         
-        {/* <WorkExperience /> */}
+        <WorkExperience />
         <Projects />
         <StartupProject />
-        {/* <Blogs /> */}
+        <Blogs />
         {/* <Talks /> */}
-        {/* <Twitter /> */}
-        {/* <Podcast /> */}
+        <Twitter />
+        <Podcast />
         <Profile />
         <Footer />
         <Top />
