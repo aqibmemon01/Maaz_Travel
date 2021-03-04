@@ -10,12 +10,16 @@ export default function AchivementCard({ cardInfo }) {
   return (
 
       <div className="certificate-card">
+
         <div className="certificate-image-div">
+
          <a href={cardInfo.image} target="_blank" >
           <img src={cardInfo.image} alt="PWA" className="card-image"></img>
           </a>
+          
         </div>
-        
+        <h2>{cardInfo.title}</h2>
+
       </div>
   );
 }

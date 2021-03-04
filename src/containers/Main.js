@@ -15,6 +15,8 @@ import Podcast from "./podcast/Podcast";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
+import OtherServices from "./otherServices/Greeting";
+
 
 
 
@@ -25,17 +27,19 @@ export default class Main extends Component {
         <Header />
         <Greeting />
         <Skills />
-        <StackProgress />
-        <Achievement />
-        <MyProjects />
+        <OtherServices />
+
+        {/* <StackProgress /> */}
+        {/* <Achievement /> */}
+        {/* <MyProjects /> */}
         
         
-        <WorkExperience />
+        {/* <WorkExperience /> */}
         <Projects />
-        <StartupProject />
         <Blogs />
+        <StartupProject />
         {/* <Talks /> */}
-        <Twitter />
+        {/* <Twitter /> */}
         <Podcast />
         <Profile />
         <Footer />

@@ -10,20 +10,23 @@ export default function StackProgress() {
             <div className="skills-container">
 
                 <div className="skills-bar">
-                    <h1 className="skills-heading">Proficiency</h1>
-                    {techStack.experience.map((exp) => {
-                        const progressStyle = {
-                            width: exp.progressPercentage
-                        };
-                        return (
-                        <div className="skill">
-                            <p>{exp.Stack}</p>
-                            <div className="meter">
-                                <span style={progressStyle}></span>
-                            </div>
-                        </div>
-                        );
-                    })}
+                    <h1 className="skills-heading">OTHER SERVICES</h1>
+                  
+<p className="otherService" >
+
+
+Airport transfer in Karachi. <br />
+Picnic and party services in Karachi. <br />
+Wedding transportation in Karachi. <br />
+Any kind of service we can provide. <br />
+
+
+
+
+</p>
+
+
+
                 </div>
 
                 <div className="skills-image">

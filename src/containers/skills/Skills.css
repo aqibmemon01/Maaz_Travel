@@ -12,23 +12,38 @@
 
 .skills-image-div > img {
   max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
 .skills-heading {
-  font-size: 56px;
+  font-size: 65px;
   font-weight: 400;
+}
+.subTitle{
+  font-size: 20px;
 }
 
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {
-    font-size: 40px;
+    font-size: 50px;
+  font-weight: 600;
+    font-family: Montserrat, "Montserrat", sans-serif
   }
 }
 @media (max-width: 768px) {
+  .skills-main-div {
+    display: flex;
+    margin-top: -100px;
+  }
+  .skills-image-div{
+    margin-top: -500px !important;
+    display: none;
+  }
   .skills-heading {
-    font-size: 30px;
+    font-size: 25px !important;
+    font-weight: 700;
     text-align: center;
   }
   .greeting-text-p {

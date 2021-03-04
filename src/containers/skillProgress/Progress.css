@@ -40,6 +40,14 @@
     max-width: 90%;
     height: auto;
 }
+.otherService{
+    font-size: 25px;
+    line-height: 1.5;
+    color: #868e96;
+}
+.skills-heading{
+    font-size: 40px;
+}
 
 /* Media Query */
 
@@ -55,7 +63,8 @@
 
 @media (max-width: 768px) {
     .skills-container {
-        flex-direction: column
+        flex-direction: column;
+        
     }
     .skills-bar {
         line-height: 3rem;
