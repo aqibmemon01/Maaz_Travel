@@ -2,6 +2,7 @@ import React from "react";
 import Headroom from "react-headroom";
 import "./Header.css";
 import {greeting, workExperiences} from "../../portfolio";
+import Logo from "./MM.jpg"
 
 function Header() {
   const exp = workExperiences.viewExperiences;
@@ -9,9 +10,14 @@ function Header() {
     <Headroom>
       <header className="header">
         <a href="" className="logo">
-          <span className="grey-color"> &lt;</span>
-          <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
+          <img src={Logo}
+          style={{
+            width:"250px"
+          }}
+          />
+          {/* <span className="grey-color"> &lt;</span> */}
+          {/* <span className="logo-name">{greeting.username}</span> */}
+          {/* <span className="grey-color">/&gt;</span> */}
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn">

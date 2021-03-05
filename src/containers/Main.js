@@ -40,7 +40,7 @@ export default class Main extends Component {
         <StartupProject />
         {/* <Talks /> */}
         {/* <Twitter /> */}
-        <Podcast />
+        {/* <Podcast /> */}
         <Profile />
         <Footer />
         <Top />

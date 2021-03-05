@@ -8,7 +8,7 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Maaz Raza",
-  title: "Maaz Transport",
+  title: "M&M Transport",
   subTitle: emoji("Pick and drop service is available for almost all location in Karachi. We can provide transport on monthly basis."),
   resumeLink: "https://firebasestorage.googleapis.com/v0/b/project-7860.appspot.com/o/MyCV.pdf?alt=media&token=c35fdcb6-984a-4db2-a1d6-59f35fdf3a8a"
 };

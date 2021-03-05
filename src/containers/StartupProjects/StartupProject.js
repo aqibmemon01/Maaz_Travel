@@ -9,28 +9,41 @@ import Backimg from './Images/Background.jpeg'
 import one from './civic.jpg';
 import two from './corolla.jpg';
 import three from './vigo.jpg';
-import four from './MyPc.jpg';
-import five from './MyPc.jpg';
-import six from './MyPc.jpg';
+import four from './hiace.jpg';
+import five from './karvaan_.jpg';
+import six from './hijet.jpg';
 
 // import Backimg from './Image/download (3).jpg'
 
 var PicArr = [
   {
   pic:one,
-  title:"Toyota Corolla"
+  title:"Honda Civic Sedan"
 },
 {
   pic:two,
-  title:"Suzuki Every"
+  title:"Toyota Corolla"
 },
 {
   pic:three,
-  title:"Suzuki Hijet"
+  title:"Toyota Vigo Champ"
 }
-  
-  
   ];
+
+var PicArr2 = [
+    {
+    pic:four,
+    title:"Toyota Hiace"
+  },
+  {
+    pic:five,
+    title:"Changan Karvaan"
+  },
+  {
+    pic:six,
+    title:"Daihatsu Hijet"
+  }
+    ];
 
 
 
@@ -75,7 +88,7 @@ export default function StartupProject() {
 <div style={{backgroundImage:`url(${Backimg})`}} className="Promain" >
 
       <div  className="achievement-cards-div Promain">
-          {PicArr.map(val => {
+          {PicArr2.map(val => {
             return (
               <AchivementCard
                 cardInfo={{

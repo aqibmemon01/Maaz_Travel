@@ -21,6 +21,9 @@
   font-weight: 600;
   margin-top: -20px;
 }
+#projects{
+  display: none;
+}
 
 @media (max-width: 1380px) {
   .heading {

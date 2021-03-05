@@ -16,18 +16,14 @@ export default function Blogs() {
       </div>
       <div className="blog-main-div">
         <div className="blog-text-div">
-          {blogSection.blogs.map(blog => {
-            return (
               <BlogCard
                 blog={{
-                  url: blog.url,
-                  image: blog.image,
-                  title: blog.title,
-                  description: blog.description
+                  url: "#",
+                  image: "#",
+                  title: "Click Here For Vehicles",
+                  description: "Description Here"
                 }}
               />
-            );
-          })}
         </div>
       </div>
     </div>
