@@ -2,6 +2,7 @@
 .heading {
   font-size: 56px;
   font-weight: 600;
+  text-align: center;
 }
 .Promain{
   background-repeat: no-repeat;
@@ -19,6 +20,9 @@
   font-size: 25px;
   font-weight: 600;
   margin-top: -20px;
+}
+#projects{
+  display: none;
 }
 
 @media (max-width: 1380px) {

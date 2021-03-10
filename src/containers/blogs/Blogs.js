@@ -9,23 +9,21 @@ export default function Blogs() {
     <Fade bottom duration={1000} distance="20px">
     <div className="main" id="blogs">
       <div className="blog-header">
-        <h1 className="blog-header-text">{blogSection.title}</h1>
-        <p className="subTitle blog-subtitle">{blogSection.subtitle}</p>
+        <h1 className="blog-header-text">VEHICLES</h1>
+        <p className="subTitle blog-subtitle">
+          We are providing different types of vehicles 
+          </p>
       </div>
       <div className="blog-main-div">
         <div className="blog-text-div">
-          {blogSection.blogs.map(blog => {
-            return (
               <BlogCard
                 blog={{
-                  url: blog.url,
-                  image: blog.image,
-                  title: blog.title,
-                  description: blog.description
+                  url: "#",
+                  image: "#",
+                  title: "Click Here For Vehicles",
+                  description: "Description Here"
                 }}
               />
-            );
-          })}
         </div>
       </div>
     </div>
